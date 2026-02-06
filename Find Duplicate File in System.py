@@ -13,9 +13,11 @@ class Solution:
 
 
         """this is the intersting part. I am not even sure how it fully works. So we count how many times the content of the file repeated itself.
-        lemisale: (abcd) mil content staaay(see), (abcd) yalebetn index save taregalek. Yhe nw interesting partu(save maregu malet nw). 
-        So indexun save mnaregibat bota ye dictionary value ga list create enaregalen keza 'key' dmo yhen (abcd) enaregalen keza (abcd) sntegna sntegna index ly 
-        endemta count mareg nw beqa. Done """
+        lemisale: (abcd) mil content staaay[see], (abcd) yalebetn index save taregalek. Yhe nw interesting partu(save maregu malet nw). 
+        So indexun save mnaregibat bota ye dictionary value ga, list create enaregalen ena eza wust enezin index save enaregalen.
+        keza 'key' dmo yhen (abcd) enaregalen keza (abcd) sntegna sntegna index ly 
+        endemeta count mareg nw beqa. So ahun abcd ayachua keza dictionary wust: key = abcd, value = [abcd`n yagegnachubet index] keza melisachu lela abcd stayu
+         ye ahunu: key = abcd yalnibet bota tmetuna adis index append mareg Done """
         freq = {}
 
         answer = []
