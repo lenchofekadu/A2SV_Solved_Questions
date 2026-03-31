@@ -25,3 +25,7 @@ class Solution:
             
         target = sub(subRoot)
         return check(root, target)
+
+
+        
+            
