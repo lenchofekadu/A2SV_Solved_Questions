@@ -10,6 +10,11 @@ class Solution:
                 matrix[i].reverse()
             return matrix
         check = rotate(mat, n)
+        for i in range(4):
+            if check == target:
+                return True
+            check = rotate(check, n)
+        return False
         if check == target:
             return True
         check2 = rotate(check, n)
