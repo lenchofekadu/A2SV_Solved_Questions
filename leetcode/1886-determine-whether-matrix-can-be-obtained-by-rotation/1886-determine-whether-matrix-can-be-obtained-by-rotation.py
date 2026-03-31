@@ -9,22 +9,11 @@ class Solution:
             for i in range(m):
                 matrix[i].reverse()
             return matrix
+            
         check = rotate(mat, n)
         for i in range(4):
             if check == target:
                 return True
             check = rotate(check, n)
-        return False
-        if check == target:
-            return True
-        check2 = rotate(check, n)
-        if check2 == target:
-            return True
-        check3 = rotate(check2, n)
-        if check3 == target:
-            return True
-        check4 = rotate(check3, n)
-        if check4 == target:
-            return True
         return False
         
