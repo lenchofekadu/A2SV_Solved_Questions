@@ -7,7 +7,7 @@ class Solution:
                 i = idx
                 if i + len(needle) > len(haystack):
                     break
-                while i - idx < len(needle) and i < len(haystack):
+                while i - idx < len(needle):
          
                     if needle[i - idx] != haystack[i]:
                         break
