@@ -6,6 +6,21 @@ class Solution:
         nums1.sort()
         n = len(nums1)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         if n % 2 == 1:
             return nums1[n // 2]
 
