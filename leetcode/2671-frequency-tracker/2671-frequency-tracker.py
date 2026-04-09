@@ -9,8 +9,8 @@ class FrequencyTracker:
         new = prev + 1
         self.count[number] = new
 
-        if self.freq[prev] > 0:
-            self.freq[prev] -= 1
+    
+        self.freq[prev] -= 1
         
         self.freq[new] += 1
 
